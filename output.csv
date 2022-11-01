@@ -1,0 +1,21 @@
+id,json,is_valid
+1,"[4,1,2,7,5,3,8,9,6]",true
+2,"[5,1,2,3,9,10,6,4,13,11,7,8,14,15,16,12]",true
+21,[],false
+3,"[6,1,2,3,4,11,12,7,8,5,16,17,13,9,10,21,18,19,14,15,22,23,24,25,20]",true
+4,"[9,4,10,2]",true
+5,[-5],true
+6,"[1,2,21,0]",true
+7,[] Error - Unexpected token ' in JSON at position 8,false
+8,"[1,1,1,1]",true
+9,[] Error - Unexpected token ' in JSON at position 4,false
+10,"[7,1,2,3,4,5,13,14,8,9,10,6,19,20,21,15,11,12,25,26,22,16,17,18,31,27,28,29,23,24,32,33,34,35,36,30]",true
+11,[] Error - Unexpected token s in JSON at position 0,false
+12,[] Error - Unexpected number in JSON at position 1,false
+13,[] Error - Unexpected token s in JSON at position 0,false
+14,[] Error - Unexpected token . in JSON at position 0,false
+15: without json,[] Error - Unexpected end of JSON input,false
+16,[],false
+17,"[3,1,4,2]",true
+,[] Error - Unexpected token w in JSON at position 0,false
+abc,[] Error - Unexpected token d in JSON at position 0,false

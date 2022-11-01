@@ -1,0 +1,37 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js input.csv > output.csv"
+  },
+  "engines": {
+    "npm": ">=8.11.0",
+    "node": ">=16.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lassbon/challenge-solution_.git"
+  },
+  "author": "Abayomi Ajao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lassbon/challenge-solution_/issues"
+  },
+  "homepage": "https://github.com/lassbon/challenge-solution_#readme",
+  "dependencies": {
+      "csv-stream": "^0.2.0",
+      "csv-writer": "^1.6.0",
+      "fast-csv": "^4.3.6",
+      "process.argv": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
+
+
+
+
